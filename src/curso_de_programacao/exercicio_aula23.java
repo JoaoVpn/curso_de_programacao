@@ -24,8 +24,6 @@ public class exercicio_aula23 {
 		System.out.printf("Rouded (three decimal places): %.3f. %n", mensuracao);
 		Locale.setDefault(Locale.US);
 		System.out.printf("US decimal point: %.3f. %n", mensuracao);
-		
-		
 	}
 
 }
