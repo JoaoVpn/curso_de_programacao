@@ -8,20 +8,32 @@ public class exercicio_aula38 {
 
         System.out.print("1-Domingo\n2-Segunda\n3-Terça\n4-Quarta\n5-Quinta\n6-Sexta\n7-Sábado\nDigite um número: ");
         int dia = sc.nextInt();
-        if (dia == 1) {
-            System.out.println("Hoje é Domingo!");
-        } else if (dia == 2) {
-            System.out.println("Hoje é Segunda-feira!");
-        } else if (dia == 3) {
-            System.out.println("Hoje é Terça-feira!");
-        } else if (dia == 4) {
-            System.out.println("Hoje é Quarta-feira!");
-        } else if (dia == 5) {
-            System.out.println("Hoje é Quinta-feira!");
-        } else if (dia == 6) {
-            System.out.println("Hoje é Sexta-feira!");
-        } else if (dia == 7) {
-            System.out.println("Hoje é Sábado!");
+        switch (dia) {
+            case 1:
+                System.out.print("Hoje é domingo!");
+                break;
+            case 2:
+                System.out.print("Hoje é segunda-feira!");
+                break;
+            case 3:
+                System.out.print("Hoje é terça-feira!");
+                break;
+            case 4:
+                System.out.print("Hoje é quarta-feira!");
+                break;
+            case 5:
+                System.out.print("Hoje é quinta-feira!");
+                break;
+            case 6:
+                System.out.print("Hoje é sexta-feira!");
+                break;
+            case 7:
+            System.out.print("Hoje é sábado!");
+            break;
+            
+            default:
+                System.out.print("Valor inválido.");
+                break;
         }
         sc.close();
     }
