@@ -14,7 +14,7 @@ public class exercicio_aula37 {
         if (minutos <= 100) {
             System.out.println("Valor a pagar: R$ 50,00");
         } else if (minutos > 100) {
-            conta += (minutos - 100) * 2.0;
+            conta += (minutos - 100) * 2.0; // utiliza-se também o comando conta = conta + (minutos - 100) * 2.0
             System.out.printf("Valor a pagar: R$ %.2f", conta);    
         }
         
