@@ -1,7 +1,6 @@
 package curso_de_programacao;
 
 import java.util.Scanner;
-import java.util.Locale;
 
 public class exercicio_aula37 {
 
